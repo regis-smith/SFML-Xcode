@@ -1,0 +1,14 @@
+// Configuration settings for make and the Xcode IDE
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+// Arguments to the make command
+ACTION = -d -w
+
+HEADER_SEARCH_PATHS = $(HOME)/SFML-2.6.1/include
+
+// Probably not needed here:
+LIBRARY_SEARCH_PATHS = $(HOME)/SFML-2.6.1/lib
+
+OTHER_CPLUSPLUSFLAGS = -std=c++20
+
